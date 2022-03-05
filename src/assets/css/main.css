@@ -1,0 +1,70 @@
+/* 清楚全局默认样式 */
+@import url('./font.css');
+
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-locale: "zh-CN";
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow-x: hidden;
+    max-width: 100%;
+    font-family: var(--font-family);
+    image-rendering: -webkit-optimize-contrast;
+}
+
+a, abbr, acronym, address, applet, big, blockquote, 
+body, caption, cite, code, dd, del, dfn, div, dl, dt, 
+em, fieldset, figure, font, form, h1, h2, h3, h4, h5, 
+h6, html, iframe, ins, kbd, label, legend, li, object, 
+ol, p, pre, q, s, samp, small, span, strike, strong, sub, 
+sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.mg-b{
+    margin-bottom: 16px;
+}
+
+.b2-radius {
+    border-radius: 6px;
+}
+
+.wrapper {
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* 设置全局变量 */
+
+:root{
+    --border-radius: 6px;
+    --font-family: 'Noto Sans SC', sans-serif;
+    --font-weight: 300;
+    --font-size: 1.125em;
+    --web-color: #404ebd;
+    --web-light-color: rgba(21, 21, 27, 0.2);
+    --web-light-color: rgba(64, 78, 189, 0.2);
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+}
